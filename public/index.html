@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Robert's Social Downloader Tool</title>
+        <link href="favicon.jpg" rel="icon" type="image/jpg">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel='stylesheet' href='/css/style.css' />
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-light bg-light mb-3" id="navBar">
+            <a class="navbar-brand" href="#">Robert's Social Downloader Tool</a>
+            <button type="button" id="darkBtn" class="btn btn-outline-dark" data-toggle="button" aria-pressed="false" autocomplete="off">
+                Light Switcher
+            </button>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 mb-3 text-center">
+                    <h1>Welcome to Robert's Social Downloader Tool</h1>
+                    <div class="app_btn">
+                        <p>Other platform versions：</p>
+                        <ul class="list-inline">
+                            <!-- <li class="line-btn list-inline-item">
+                                <a href="javascript:;" data-toggle="modal" data-target="#lineModel">
+                                    <img src="img/LINE_logo.png">
+                                    <span>@RobertsSocialDownloaderBot</span>
+                                </a>
+                            </li> -->
+                            <li class="tele-btn list-inline-item">
+                                <a href="https://t.me/RobertsSocialDownloaderBot" target="_blank">
+                                    <img src="img/TELE_logo.png">
+                                    <span>@RobertsSocialDownloaderBot</span>
+                                </a>
+                            </li>
+                            <li class="tele-btn list-inline-item">
+                                <a href="https://instagram.com/instadownloader.tb" target="_blank">
+                                    <img src="img/instagram-square.png">
+                                    <span>@instadownloader.tb</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <h5>Please enter the account URL for time-limited dynamics, and wait for 5 ~ 10 seconds (for public accounts only)</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <label for="targetUrls">Please enter the URL of the Twitter or Instagram post:</label>
+                    <textarea type="text" class="form-control" id="targetUrls" rows="8" cols="100" placeholder="Enter multiple URLs, please separate lines"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-right mt-1 mb-2">
+                    <button class="btn btn-outline-secondary btn-lg" type="button" id="clearBtn">Clear</button>
+                    <button class="btn btn-outline-success btn-lg" type="button" id="submitBtn">GET</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md text-center">
+                    <p id="nothing" style="display:none"><strong>Not found</strong></p>
+                </div>
+            </div>
+            <div class="row" id="result">
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="lineModel" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content text-center">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-dark" id="lineModel">Robert's Social Downloader Tool Line Bot</h4>
+                        <button type="button" class="close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6 class="text-dark">Scan QR code to add bot as friend</h6>
+                        <img src="img/bch6035i.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
