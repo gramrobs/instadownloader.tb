@@ -1,10 +1,10 @@
 var config = {
     development: {
-        telegramToken: '1157076530:AAEvVTHKiedGWfvoaZcWUHw9H3RQdCb-wHU',
-        insEmail: 'instadownloader.tb',
-        insPass: '0plm9okn',
+        telegramToken: '1157076530:AAERJnfEWR9iV8ii3rrdp1RA7SXHLEgJL5E',
+        insEmail: '_evgevg2002_',
+        insPass: 'Z"v%j2x9SL>$Niby',
         port: 8080,
-        insCookies: '38964512370%3AOj37edGgu3AnlZ%3A16',
+        insCookies: 'BcJ1ZmwKsDxzlNxu6eAIQw',
         url: 'https://robertssocialdownloadertoolbot.herokuapp.com:8080/',
         deepSite: null
     },
