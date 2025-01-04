@@ -1,7 +1,7 @@
 var cred = {
-  telegramToken: '1157076530:AAEvVTHKiedGWfvoaZcWUHw9H3RQdCb-wHU',
-  insPass: '0plm9okn',
-  insCookies: '38964512370%3AOj37edGgu3AnlZ%3A16',
-  insEmail: 'instadownloader.tb'
+  telegramToken: '1157076530:AAERJnfEWR9iV8ii3rrdp1RA7SXHLEgJL5E',
+  insPass: 'Z"v%j2x9SL>$Niby',
+  insCookies: 'BcJ1ZmwKsDxzlNxu6eAIQw',
+  insEmail: '_evgevg2002_'
 }
 module.exports = cred;
