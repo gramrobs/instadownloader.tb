@@ -5,7 +5,7 @@ var config = {
         insPass: 'Z"v%j2x9SL>$Niby',
         port: 8080,
         insCookies: 'BcJ1ZmwKsDxzlNxu6eAIQw',
-        url: 'https://robertssocialdownloadertoolbot.herokuapp.com:8080/',
+        url: 'https://robertssocialdownloadertoolbot-88876f689554.herokuapp.com/',
         deepSite: null
     },
     production: {
